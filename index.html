@@ -9,14 +9,26 @@
   <style>
 
   h1 {
-    color: 800080;
+    color: #fff701;
+  }
+  h2 {
+    color: #00FFFF;
   }
   body{
-    background-color: 00FFFF;
+    background-image: url(https://img.freepik.com/premium-vector/watercolor-outer-space-purple-background_23-2149247753.jpg); /* url of the image */
+    background-size: cover; /* ensures that the image covers the entire background */
+    background-repeat: no-repeat; /* ensures that the immage doesn't end somewhere in the scroll, if you would put repeat, the background image has a limit */
+    background-attachment: fixed; /* pretty self explanatory, makes image fixed while scrolling, basically image position doesn't change when scrolling */
+    background-position: center; /* centers the image */
   }
-
-  .indented-paragraph {
-    text-indent: 30px;  /* Indent the first line by 30 pixels */
+  p{
+    color: rgb(255, 255, 255);
+  }
+  .indent1 {
+    text-indent: 10px;  /* Indent the first line by 8 pixels */
+  }
+  .indent2 {
+    text-indent: 400px;
   }
 
   </style>
@@ -26,18 +38,14 @@
     </div>
 
   </head>
-  
-  <style>
-    p{
-      color: black;
-    }
-  </style>
 
   <body>
     <br/>
-    <p>Here are some of the cool space images that will make you fall in love with space, enjoy :)</p>
-    <img src = "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.spacechatter.com%2F2023%2F04%2F27%2Fdecades-old-mystery-surrounding-quasars-finally-solved%2F&psig=AOvVaw2dM8EnMFx6We-dJmMjWL-h&ust=1716653330320000&source=images&cd=vfe&opi=89978449&ved=0CBQQjhxqFwoTCMiDspHWpoYDFQAAAAAdAAAAABAo">
-    <p>becutiful image of a quasar</p>
+    <p class = "indent1">Here are some of the personal projects I worked on throughout my High School Career, enjoy :)</p>
+    <br/>
+    <h2 class = "indent2"> About me: </h2>
+    <br/>
+    <p class = "indent2"> Hello! My name is Andria Giorgadze. I am currently 16, attending FDR High School.</p>
   </body>
 
 
