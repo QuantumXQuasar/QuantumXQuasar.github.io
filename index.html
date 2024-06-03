@@ -20,6 +20,7 @@
     background-repeat: no-repeat; /* ensures that the immage doesn't end somewhere in the scroll, if you would put repeat, the background image has a limit */
     background-attachment: fixed; /* pretty self explanatory, makes image fixed while scrolling, basically image position doesn't change when scrolling */
     background-position: center; /* centers the image */
+    line-height: 0.5; /* Set the global line height to 1.2 */
   }
   p{
     color: rgb(255, 255, 255);
@@ -28,8 +29,14 @@
     text-indent: 10px;  /* Indent the first line by 8 pixels */
   }
   .indent2 {
-    text-indent: 400px;
+    text-indent: 10px;
   }
+  img {
+    float: left; /* puts image to the left in order to put text on the right VERY IMPORTANT*/
+    width: 240px; /* Set the width to 200 pixels */
+    height: auto; /* Maintain aspect ratio */
+  }
+
 
   </style>
   <head>
@@ -43,9 +50,26 @@
     <br/>
     <p class = "indent1">Here are some of the personal projects I worked on throughout my High School Career, enjoy :)</p>
     <br/>
-    <h2 class = "indent2"> About me: </h2>
+    <img src = "file:///Users/andri/Downloads/IMG_2710.jpg">
+    <h2 class = "indent2"> About me & purpose of the website: </h2>
     <br/>
-    <p class = "indent2"> Hello! My name is Andria Giorgadze. I am currently 16, attending FDR High School.</p>
+    <br/>
+    <br/>
+    <br/>
+    <p class = "indent2">   Hello! My name is Andria Giorgadze. I am currently 16, attending FDR High School.</p>
+    <p class = "indent2"> I love Physics, Mathematics, Engineering, and Programming. I aspire to get PhD in </p>
+    <p class = "indent2"> Physics and Mathematics, become a physicist, and do something big with the knowledge I'll have.</p>
+    <p class = "indent2"> As for hobbies, I play chess and love to go to the park. </p>
+    <br/>
+    <br/>
+    <br/>
+    <p class = "indent2"> This website will showcase cool personal projects I have worked on throughout my high school career.</p>
+    <p class = "indent2"> These projects include stuff like model rockets, physics simulators, and so on. Some of the projects </p>
+    <p class = "indent2"> I did completely on my own, while the others I did with my very good friends. </p>
+    <p class = "indent2"> All the documents, GitHub repos, calculations, etc. will be included on the page of the project. </p>
+    <p class = "indent2"> I hope you will like the projects I did and will gain something from looking at them. </p>
+    <p class = "indent2"> Thank you for visiting my website :)</p>
+    
   </body>
 
 
