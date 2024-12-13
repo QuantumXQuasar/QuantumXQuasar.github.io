@@ -14,6 +14,9 @@
   h2 {
     color: #00FFFF;
   }
+  h3 {
+    color: #FFA500;
+  }
   body{
     background-image: url(https://img.freepik.com/premium-vector/watercolor-outer-space-purple-background_23-2149247753.jpg); /* url of the image */
     background-size: cover; /* ensures that the image covers the entire background */
@@ -26,49 +29,97 @@
     color: rgb(255, 255, 255);
   }
   .indent1 {
-    text-indent: 10px;  /* Indent the first line by 8 pixels */
-  }
-  .indent2 {
-    text-indent: 10px;
+    text-indent: 10px;  /* Indent the first line by 10 pixels */
   }
   img {
     float: left; /* puts image to the left in order to put text on the right VERY IMPORTANT*/
     width: 240px; /* Set the width to 200 pixels */
     height: auto; /* Maintain aspect ratio */
   }
+  #mainbuttonstyle {
+    padding: 20px 40px; /* Increase padding for a bigger button */
+    font-size: 25px;    /* Increase text size */
+    font-family: Verdana, sans-serif;
+    width: 160px;       /* Set a larger width */
+    height: 45px;       /* Set a larger height */
+    border-radius: 8px; /* rounded corners */
+    background-color: #8B0000; /* button color */
+    color: #ffffff;       /* text color */
+    border: none;       /* Remove border */
+    cursor: pointer;    /* Change cursor to pointer when hovering */
+
+    display: flex;      /* Use flexbox to center text */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    text-align: center;  /* Ensure text is centered */
+    margin-left: 180px; /* Ensures the button is indented left */
+    padding: 0;         /* Remove padding so flexbox can manage spacing */
+  }
+
+  .button-container{
+    display: flex;
+    gap: 10px;
+    margin-top: 30px;
+  }
+  .skip-100{
+    margin-top: 100px;
+  }
+
+
+
+
 
 
   </style>
   <head>
     <div style="text-align: center;">
-      <h1> Welcome to my personal projects: </h1>
+      <h1 style = "margin-top: 30px"> Welcome to my personal projects! </h1>
+      <h3> Press the project you want to see: </h3>
     </div>
 
   </head>
 
   <body>
+    <p style = "margin-top: 60px"></p>
     <br/>
-    <p class = "indent1">Here are some of the personal projects I worked on throughout my High School Career, enjoy :)</p>
+    <div class = "button-container">
+      <a href = "Rocket.html"><button style = "margin-left: 300px", id = "mainbuttonstyle"> Rocket </button></a>
+      <a href = "SSP.html"><button id = "mainbuttonstyle"> SSP </button></a>
+      <a href = "SHAPE.html"><button id = "mainbuttonstyle"> SHAPE </button></a>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class = "button-container">
+      <a href = "Trebuchet.html"><button style = "margin-left: 300px", id = "mainbuttonstyle"> Trebuchet </button></a>
+      <a href = "ArmoH2O.html"><button id = "mainbuttonstyle"> Armo H2O </button></a>
+      <a href = "ThisWeb.html"><button id = "mainbuttonstyle"> This Web </button></a>
+    </div>
     <br/>
-    <img src = "https://github.com/QuantumXQuasar/QuantumXQuasar.github.io/blob/main/IMG_2710.jpg?raw=true">
-    <h2 class = "indent2"> About me & purpose of the website: </h2>
+    <p class = "skip-100"></p>
+    <img style = "margin-left: 100px; width: 270px", src = "https://raw.githubusercontent.com/QuantumXQuasar/QuantumXQuasar.github.io/refs/heads/main/IMG_4164.jpg">
+    <h2 class = "indent1"> About me & purpose of the website: </h2>
     <br/>
     <br/>
     <br/>
     <br/>
-    <p class = "indent2">   Hello! My name is Andria Giorgadze. I am currently 16, attending FDR High School.</p>
-    <p class = "indent2"> I love Physics, Mathematics, Engineering, and Programming. I aspire to get PhD in </p>
-    <p class = "indent2"> Physics and Mathematics, become a physicist, and do something big with the knowledge I'll have.</p>
-    <p class = "indent2"> As for hobbies, I play chess and love to go to the park. </p>
+    <p class = "indent1">   Hello! My name is Andria Giorgadze. I am currently 17, attending FDR High School.</p>
+    <p class = "indent1"> I love Physics, Mathematics, Engineering, and Programming. I aspire to get PhD in </p>
+    <p class = "indent1"> Physics and Mathematics, become a physicist, and do something big with the knowledge I'll have.</p>
+    <p class = "indent1"> As for hobbies, I play chess and love to go to the park. </p>
     <br/>
     <br/>
     <br/>
-    <p class = "indent2"> This website will showcase cool personal projects I have worked on throughout my high school career.</p>
-    <p class = "indent2"> These projects include stuff like model rockets, physics simulators, and so on. Some of the projects </p>
-    <p class = "indent2"> I did completely on my own, while the others I did with my very good friends. </p>
-    <p class = "indent2"> All the documents, GitHub repos, calculations, etc. will be included on the page of the project. </p>
-    <p class = "indent2"> I hope you will like the projects I did and will gain something from looking at them. </p>
-    <p class = "indent2"> Thank you for visiting my website :)</p>
+    <p class = "indent1"> This website will showcase cool personal projects I have worked on throughout my high school career.</p>
+    <p class = "indent1"> These projects include stuff like model rocket, research, and so on. Some of the projects </p>
+    <p class = "indent1"> I did completely on my own, others I did with my very good friends, and some through enlightening </p>
+    <p class = "indent1"> programs. All the documents, GitHub repos, calculations, etc. will be included on the page of the project. </p>
+    <p class = "indent1"> I hope you will like the projects I worked on and will gain something from observing them. </p>
+    <p class = "indent1"> Thank you for visiting my website :)</p>
+    <p style = "margin-top: 250px"></p>
     
   </body>
 
